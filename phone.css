@@ -1,0 +1,20 @@
+body{
+ 
+}
+.profesion{
+    font-size: 20px;
+    width:300px;
+}
+.name{
+    margin-top: 10px;
+    font-size: 30px;
+    width:350px;
+}
+.skills{
+   font-size: 10px;
+}
+.skills div{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding:10px;
+}
