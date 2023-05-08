@@ -104,7 +104,19 @@ font-family: 'Montserrat', sans-serif;
     color:white;
     font-size: 30px;
     text-shadow: 0px 0px 2px rgb(255, 255, 255), 0px 0px 5px rgb(255, 255, 255);
+    animation-name:left-entry;
+    animation-duration: 2s;
     
+}
+@keyframes left-entry{
+    0%{
+       
+        font-size: 0px;
+    }
+    100%{
+       
+        font-size: 30px;
+    }
 }
 .skills-logo{
     height:100px;
