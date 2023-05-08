@@ -5,6 +5,16 @@ body{
     font-size: 20px;
     width:300px;
 }
+@keyframes left-entry{
+    0%{
+      
+        font-size: 0px;
+    }
+    100%{
+       
+        font-size: 20px;
+    }
+}
 .name{
     margin-top: 10px;
     font-size: 30px;
