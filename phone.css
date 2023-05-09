@@ -1,0 +1,30 @@
+body{
+ 
+}
+.profesion{
+    font-size: 15px;
+    width:300px;
+}
+@keyframes pop-up-logo{
+    0%{
+      
+        font-size: 0px;
+    }
+    100%{
+       
+        font-size: 15px;
+    }
+}
+.name{
+    margin-top: 10px;
+    font-size: 30px;
+    width:350px;
+}
+.skills{
+   font-size: 10px;
+}
+.skills div{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding:10px;
+}
