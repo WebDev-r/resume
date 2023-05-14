@@ -1,0 +1,11 @@
+document.getElementsByClassName("day-click")[0].addEventListener('click',function(){
+    if(document.getElementsByClassName("day-click")[0].innerText=="DAY")
+    {
+        document.getElementsByClassName("css")[0].href="day.css"
+        document.getElementsByClassName("day-click")[0].innerText="NIGHT"
+    }
+    else{
+        document.getElementsByClassName("css")[0].href="style.css"
+        document.getElementsByClassName("day-click")[0].innerText="DAY"
+    }
+})
